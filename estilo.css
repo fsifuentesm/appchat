@@ -1,0 +1,210 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body{
+	background-color: white;
+}
+
+#contenedor{
+	width: 100%;
+	background: #fff;
+	margin: 0 auto;
+	padding: 20px;
+	-moz-border-radius: 12px;
+	-o-border-radius: 12px;
+	-webkit-border-radius: 12px;
+}
+
+#caja-chat{
+	width: 90%;
+	height:60vh;
+	overflow-y: scroll;
+
+
+}
+
+#datos-chat{
+	width: 90%;
+	height: 100%;
+	padding: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid silver;
+	font-weight: bold;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+input[type='text']{
+	width: 90%;
+	height: 40px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+input[type='submit']{
+	width: 90%;
+	height: 40px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	cursor: pointer; 
+}
+
+textarea{
+	width: 90%;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid gray;	
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+input, textarea{
+	margin-bottom: 3px;
+}
+
+input.texto
+{
+	height: 40px;
+	width: 90%;
+	border: 1px solid gray;	
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+}
+
+img {  
+  position: relative;
+}
+
+/* style this to fit your needs */
+/* and remove [alt] to apply to all images*/
+img[alt]:after {  
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  font-family: 'Helvetica';
+  font-weight: 0;
+  line-height: 2;  
+  text-align: center;
+  content: attr(alt);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+
+body{
+	background-color: black;
+}
+
+
+#contenedor{
+	width: 100%;
+	background: #fff;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#caja-chat{
+	width: 90%;
+	height:60vh;
+	overflow-y: scroll;
+
+
+}
+
+#datos-chat{
+	width: 90%;
+	height: 100%;
+	padding: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid silver;
+	font-weight: bold;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+input[type='text']{
+	width: 90%;
+	height: 40px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+input[type='submit']{
+	width: 90%;
+	height: 40px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	cursor: pointer; 
+}
+
+textarea{
+	width: 90%;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid gray;	
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+input, textarea{
+	margin-bottom: 3px;
+}
+
+input.texto
+{
+	height: 40px;
+	width: 90%;
+	border: 1px solid gray;	
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+}
+
+img {  
+  position: relative;
+}
+
+/* style this to fit your needs */
+/* and remove [alt] to apply to all images*/
+img[alt]:after {  
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  font-family: 'Helvetica';
+  font-weight: 0;
+  line-height: 2;  
+  text-align: center;
+  content: attr(alt);
+}
